@@ -1,7 +1,7 @@
 # Protein Sound
 Five algorithms for sonifying proteins and protein Multiple Sequence Alignments.
 
-These scripts take FASTA protein sequences or FASTA protein Multiple Sequence Alignments and create sonic pi code [Link](https://sonic-pi.net). The resultant code can be pasted into Sonic Pi to create the sonifications. 
+These scripts take FASTA protein sequences or FASTA protein Multiple Sequence Alignments and creates [Sonic Pi](https://sonic-pi.net) code. The resultant code can be pasted into Sonic Pi to create the sonifications. 
 
 By rendering protein data as sound, it is hoped that human psychoacoustic intuition can find new knowledge from large data sets.
 
