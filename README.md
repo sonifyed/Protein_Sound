@@ -14,7 +14,7 @@ To create sound from the output scripts you will need Sonic Pi (v3.1.0 or later)
 The algorithms are given as Perl scripts. They do not require installation. They should be run in the shell.
 
 ```bash
-Algorithm-I.pl Example.fasta Example-Sonic-Pi.txt # This uses Algorithm I to create a file called 'Example-Sonic-Pi.txt'. The code in this file can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
+Algorithm-I.pl test.fasta test-Sonic-Pi.txt # This uses Algorithm I to create a file called 'test-Sonic-Pi.txt'. The code in this file can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
 ```
 
 Here you should say what actually happens when you execute the code above.
