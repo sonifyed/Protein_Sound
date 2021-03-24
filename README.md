@@ -9,8 +9,14 @@ By rendering protein data as sound, it is hoped that human psychoacoustic intuit
 1.1
 
 ## Installing / Getting started
+To run the scripts you will require Perl (v5.16.3 was used). 
 
-The algorithms are Perl scripts. They do not require installation. They can be run in the command line 
+To create sound from the output scripts you will need Sonic Pi (v3.1.0 or later)
+
+
+The algorithms are given as Perl scripts. They do not require installation. They can be run in the command line. 
+
+
 
 ```shell
 packagemanager install awesome-project
@@ -19,11 +25,6 @@ awesome-project "Do something!"  # prints "Nah."
 ```
 
 Here you should say what actually happens when you execute the code above.
-
-### Initial Configuration
-
-Some projects require initial configuration (e.g. access tokens or keys, `npm i`).
-This is the section where you would document those requirements.
 
 ## Features
 
@@ -45,7 +46,7 @@ The first argument details the name of the input FASTA file. For algorithms I, I
 
 Example:
 ```bash
-awesome-project "Some other value"  # Prints "You're nailing this readme!"
+Algorithm-I.pl Example.fasta sonic-pi-output.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 
 #### Argument 2
