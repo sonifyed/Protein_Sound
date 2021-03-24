@@ -5,9 +5,6 @@ These scripts take FASTA protein sequences or FASTA protein Multiple Sequence Al
 
 By rendering protein data as sound, it is hoped that human psychoacoustic intuition can find new knowledge from large data sets.
 
-## Contents
-1.1
-
 ## Installing / Getting started
 To run the scripts you will require Perl (v5.16.3 was used). 
 
@@ -40,20 +37,24 @@ using the project.
 
 #### Argument 1
 Type: `String`  
-Default: `'default value'`
 
 The first argument details the name of the input FASTA file. For algorithms I, II, and III, these will be protein sequence files. For algorithms IV and V, these will be FASTA Multiple Sequence Alignments.
 
-Example:
-```bash
-Algorithm-I.pl Example.fasta sonic-pi-output.txt # Prints to file sonic-pi code for sonifictaion 
-```
-
 #### Argument 2
 Type: `string`  
-Default: 100
 
-This is the name of the output file. this will create code that can be executed in Sonic Pi to create the sonification.
+This is the name of the output file. It will be created in the current working directory. The file will contain code that can be copied and pasted (or otherwise executed) in Sonic Pi software.
+
+Example:
+```bash
+Algorithm-I.pl Example.fasta Example-Sonic-Pi.txt # Prints to file sonic-pi code for sonifictaion 
+```
+
+#### Sonic Pi
+The output code must be entered into sonic pi software to create sound. 
+
+Image of Sonic pi and click play
+
 
 ## Links
 
