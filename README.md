@@ -11,29 +11,41 @@ To run the scripts you will require Perl (v5.16.3 was used).
 To create sound from the output scripts you will need Sonic Pi (v3.1.0 or later)
 
 
-The algorithms are given as Perl scripts. They do not require installation. They can be run in the command line. 
+The algorithms are given as Perl scripts. They do not require installation. They should be run in the shell.
 
-
-
-```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
+```bash
+Algorithm-I.pl Example.fasta Example-Sonic-Pi.txt # This uses Algorithm I to create a file called 'Example-Sonic-Pi.txt'. The code in this file can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
 ```
 
 Here you should say what actually happens when you execute the code above.
 
 ## Features
+More details can be found in the accompanying paper (link to come)
 
-What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
+ ### Algorithm I
+ This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. 20 distinct pitches are used.
+ 
+ ### Algorithm II
+ This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. However the amino acids have been grouped into a reduced alphabet. This means that only distinct four pitches are used.
+ 
+ ### Algorithm III
+ This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. A combination of the first two methods is used, with Algorithm I determining the pitch, and the 'reduced alphabet' of Algorithm II determining the instrument.
+ 
+ ### Algorithm IV
+ This algorithm sonifies a protein Multiple Sequence Alignment according to the entropy of each position within the alignment. The higher the pitch at a given position, the greater variety of amino acids can be found at that position.
+ 
+ ### Algorithm V
+ This algorithm sonifies a protein Multiple Sequence Alignment according to the hydrophobicity of each amino acid as in Algorithm I. Algorithm V can be thought of as Algorithm I run simultaneously on all rows of the multiple sequence alignment
 
 ## Configuration
 
-Here you should write what are all of the configurations a user can enter when
-using the project.
+The scripts work in a two-step process.
+
+First the perl script must be run in the shell.
+
+then the resulting Sonic Pi script must be pasted into the SOnic Pi software to create the sound.
+
+### Shell
 
 #### Argument 1
 Type: `String`  
@@ -50,7 +62,7 @@ Example:
 Algorithm-I.pl Example.fasta Example-Sonic-Pi.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 
-#### Sonic Pi
+### Sonic Pi
 The output code must be entered into sonic pi software to create sound. 
 
 Image of Sonic pi and click play
