@@ -24,26 +24,45 @@ More details can be found in the accompanying paper (link to come)
 
  ### Algorithm I
  This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. 20 distinct pitches are used.
+ ```bash
+Algorithm-I.pl test.fasta Sonic-Pi-Code.txt # Prints to file Sonic-Pi-Code.txt the sonic pi code for the Algorithm I sonification of protein test.fasta
+```
  
  ### Algorithm II
  This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. However the amino acids have been grouped into a reduced alphabet. This means that only distinct four pitches are used.
+  ```bash
+Algorithm-II.pl test.fasta Sonic-Pi-Code.txt # Prints to file Sonic-Pi-Code.txt the sonic pi code for the Algorithm II sonification of protein test.fasta
+```
  
  ### Algorithm III
  This algorithm sonifies a protein sequence according to the hydrophobicity of the amino acids of the sequence. A combination of the first two methods is used, with Algorithm I determining the pitch, and the 'reduced alphabet' of Algorithm II determining the instrument.
+  ```bash
+Algorithm-III.pl test.fasta Sonic-Pi-Code.txt # Prints to file Sonic-Pi-Code.txt the sonic pi code for the Algorithm III sonification of protein test.fasta
+```
  
  ### Algorithm IV
  This algorithm sonifies a protein Multiple Sequence Alignment according to the entropy of each position within the alignment. The higher the pitch at a given position, the greater variety of amino acids can be found at that position.
+  ```bash
+Algorithm-IV.pl test-MSA.fasta Sonic-Pi-Code.txt # Prints to file Sonic-Pi-Code.txt the sonic pi code for the Algorithm IV sonification of Multiple Sequence Alignment test-MSA.fasta
+```
  
  ### Algorithm V
- This algorithm sonifies a protein Multiple Sequence Alignment according to the hydrophobicity of each amino acid as in Algorithm I. Algorithm V can be thought of as Algorithm I run simultaneously on all rows of the multiple sequence alignment
+ This algorithm sonifies a protein Multiple Sequence Alignment according to the hydrophobicity of each amino acid as in Algorithm I. Algorithm V can be thought of as Algorithm I run simultaneously on all rows of the multiple sequence alignment.
+   ```bash
+Algorithm-V.pl test-MSA.fasta Sonic-Pi-Code.txt # Prints to file Sonic-Pi-Code.txt the sonic pi code for the Algorithm V sonification of Multiple Sequence Alignment test-MSA.fasta
+```
 
 ## Configuration
 
-The scripts work in a two-step process.
+The sonification is a two-step process.
 
 First the perl script must be run in the shell.
+```bash
+Algorithm-I.pl test.fasta test-Sonic-Pi.txt # This uses Algorithm I to create a file called 'test-Sonic-Pi.txt'. The code in this file can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
+```
 
-then the resulting Sonic Pi script must be pasted into the SOnic Pi software to create the sound.
+Then the resulting Sonic Pi script must be pasted into the Sonic Pi software to create the sound.
+*include image of Sonic Pi interface*
 
 ### Shell
 
@@ -59,7 +78,7 @@ This is the name of the output file. It will be created in the current working d
 
 Example:
 ```bash
-Algorithm-I.pl Example.fasta Example-Sonic-Pi.txt # Prints to file sonic-pi code for sonifictaion 
+Algorithm-I.pl test.fasta Sonic-Pi-code.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 
 ### Sonic Pi
