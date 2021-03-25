@@ -108,7 +108,7 @@ perl Algorithm-IV.pl test-MSA.fasta > Sonic-Pi-code.txt # Prints to file sonic-p
 ### Sonic Pi
 The output code must be entered into sonic pi software to create sound. 
 
-Image of Sonic pi and click play
+![alt text](https://github.com/sonifyed/Protein_Sound/blob/main/Sonic-Pi-Screenshot.png?raw=true)
 
 
 ## Links
