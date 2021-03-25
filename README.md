@@ -5,14 +5,19 @@ These scripts take FASTA protein sequences or FASTA protein Multiple Sequence Al
 
 By rendering protein data as sound, it is hoped that human psychoacoustic intuition can find new knowledge from large data sets.
 
+This README is written in markdown and is best viewed on GitHub at https://github.com/sonifyed/Protein_Sound/blob/main/README.md
+
 ## Installing / Getting started
-To run the scripts you will require Perl (v5.16.3 was used). 
+You will require [Perl](https://www.perl.org) to run scripts (v5.16.3 was used). 
 
-To create sound from the output scripts you will need Sonic Pi (v3.1.0 or later)
+You will need [Sonic Pi](https://sonic-pi.net) (v3.1.0 or later) to synthesize sound.
 
-The algorithms are given as Perl scripts. They do not require installation. They should be run in the shell. 
+The algorithms are Perl scripts - they do not require installation. They should be downloaded and run in the shell. 
 
-For beginners - It is easiest to run these scripts while working in the same directory as them.
+## For beginners 
+Download the scripts from the [repository](https://github.com/sonifyed/Protein_Sound/)
+
+Open the shell (called Terminal on Macbook, on Windows you may download and use [Moba X-Term](https://mobaxterm.mobatek.net) )
 
 Use cd (change directory) command to move to the same directory as the scripts. 
 ```bash
@@ -24,8 +29,11 @@ ls  # List the contents of the current working directory.
 ```
 This should give you a list containing Algorithm-I.pl, Algorithm-II.pl etc.
 
-Now you are in the correct directory you can test the scripts using the following command
+Now you are in the correct directory you can test the scripts using the following commands
 
+## Running the script
+This is an example running script Algorithm-I.pl on protein test.fasta
+![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
 ```bash
 perl Algorithm-I.pl test.fasta # Use Algorithm I on protein sequence test.fasta. 
 ```
@@ -39,8 +47,6 @@ perl Algorithm-I.pl test.fasta > Sonic-Pi-Code.txt # This prints the output to f
 The file will be saved in the current working directory. This code can be pasted into Sonic Pi's graphical user interface and run to listen to the sonification. 
 
 Be aware that using the same output name (i.e. Sonic-Pi-Code.txt) will overwrite the previous code file.
-
-![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
 
 ## Features
 More details can be found in the accompanying paper (link to come)
