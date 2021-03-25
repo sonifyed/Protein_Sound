@@ -103,7 +103,7 @@ perl Algorithm-I.pl test.fasta > Sonic-Pi-code.txt # Prints to file sonic-pi cod
 ```
 MSA Example:
 ```bash
-perl Algorithm-I.pl test-MSA.fasta > Sonic-Pi-code.txt # Prints to file sonic-pi code for sonifictaion 
+perl Algorithm-IV.pl test-MSA.fasta > Sonic-Pi-code.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 ### Sonic Pi
 The output code must be entered into sonic pi software to create sound. 
