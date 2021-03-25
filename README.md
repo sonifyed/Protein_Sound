@@ -106,9 +106,9 @@ MSA Example:
 perl Algorithm-IV.pl test-MSA.fasta > Sonic-Pi-code.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 ### Sonic Pi
-The output code must be entered into sonic pi software to create sound. 
+The output code must be pasted into Sonic Pi software to create sound. Click the 'Run' button in the top left to play the sound.
 
-![alt text](https://github.com/sonifyed/Protein_Sound/blob/main/Sonic-Pi-Screenshot.png?raw=true)
+![Screenshot of code created by running Algorithm-I.pl on protein test.fasta which has been copied and pasted into Sonic Pi GUI](https://github.com/sonifyed/Protein_Sound/blob/main/Sonic-Pi-Screenshot.png?raw=true)
 
 
 ## Links
