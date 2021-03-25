@@ -32,8 +32,7 @@ This should give you a list containing Algorithm-I.pl, Algorithm-II.pl etc.
 Now you are in the correct directory you can test the scripts using the following commands
 
 ## Running the script
-This is an example running script Algorithm-I.pl on protein test.fasta
-![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
+To run the script use the 'perl' command followed by the name of the script followed by the input file.
 ```bash
 perl Algorithm-I.pl test.fasta # Use Algorithm I on protein sequence test.fasta. 
 ```
@@ -47,6 +46,9 @@ perl Algorithm-I.pl test.fasta > Sonic-Pi-Code.txt # This prints the output to f
 The file will be saved in the current working directory. This code can be pasted into Sonic Pi's graphical user interface and run to listen to the sonification. 
 
 Be aware that using the same output name (i.e. Sonic-Pi-Code.txt) will overwrite the previous code file.
+
+Below is an animated example running script Algorithm-I.pl on protein test.fasta
+![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
 
 ## Features
 More details can be found in the accompanying paper (link to come)
