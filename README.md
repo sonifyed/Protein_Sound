@@ -41,7 +41,6 @@ The file will be saved in the current working directory. This code can be pasted
 Be aware that using the same output name (i.e. Sonic-Pi-Code.txt) will overwrite the previous code file.
 
 ![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
-<img src="https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg">
 
 ## Features
 More details can be found in the accompanying paper (link to come)
