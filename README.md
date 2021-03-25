@@ -20,21 +20,23 @@ cd <location of scripts> # This will make your current working directory the loc
 ```
 Use ls (list files) to confirm you are in the correct directory.
 ```bash
-ls  # This will list the contents of the current working directory. 
+ls  # List the contents of the current working directory. 
 ```
 ls should give you a list containing Algorithm-I.pl, Algorithm-II.pl etc.
 
 Now you are in the correct directory you can test the scripts using the following command
 
 ```bash
-Algorithm-I.pl test.fasta # This uses Algorithm I to create Sonic Pi code from the example protein sequence test.fasta. This code can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
+Algorithm-I.pl test.fasta # Use Algorithm I on protein sequence test.fasta. 
 ```
+This will output Sonic pi code created from the protein sequence in 'test.fasta'. This code can be pasted into Sonic Pi's graphical user interface and run to listen to the sonification.
 
 It may be easier to print the output of the script to a file. You can do this using the > command. This way the code is saved for later. 
 
 ```bash
-Algorithm-I.pl test.fasta > Sonic-Pi-Code.txt # This uses Algorithm I create Sonic Pi code and then prints the code to file 'Sonic-Pi-Code.txt'. The file will be saved in the current working directory. This code can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
+Algorithm-I.pl test.fasta > Sonic-Pi-Code.txt # This uses Algorithm I create Sonic Pi code and then prints the code to file 'Sonic-Pi-Code.txt'. 
 ```
+The file will be saved in the current working directory. This code can be pasted into Sonic Pi's graphical user interface and run to listen to the sonification. 
 
 Be aware that using the same output name (i.e. Sonic-Pi-Code.txt) will overwrite the previous code file.
 
