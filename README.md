@@ -96,11 +96,10 @@ The sonification is a two-step process.
 
 First the perl script must be run in the shell.
 ```bash
-perl Algorithm-I.pl test.fasta > test-Sonic-Pi.txt # This uses Algorithm I to create a file called 'test-Sonic-Pi.txt'. The code in this file can be pasted into Sonic Pi's graphical user interface to listen to the sonification. 
+perl Algorithm-I.pl test.fasta > test-Sonic-Pi.txt # This uses Algorithm I to create a file called 'test-Sonic-Pi.txt'.
 ```
 
 Then the resulting Sonic Pi script must be pasted into the Sonic Pi software to create the sound.
-*include image of Sonic Pi interface*
 
 ### Shell
 
