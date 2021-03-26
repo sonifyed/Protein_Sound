@@ -47,9 +47,11 @@ The file will be saved in the current working directory. This code can be pasted
 
 Be aware that using the same output name (i.e. Sonic-Pi-Code.txt) will overwrite the previous code file.
 
+## Example
 Below is an animated example running script Algorithm-I.pl on protein test.fasta
 ![SVG animation demonstrating how the perl scripts can be run in the shell](https://github.com/sonifyed/Protein_Sound/blob/main/asciicast.svg)
 
+The resultant code in file Sonic-Pi-Code.txt must then be copied and pasted into Sonic Pi.
 ## Features
 More details can be found in the accompanying paper (link to come)
 
