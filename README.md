@@ -123,21 +123,8 @@ The output code must be pasted into Sonic Pi software to create sound. Click the
 
 
 ## Links
-
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
-- Project homepage: https://your.github.com/awesome-project/
+- Examples Page: https://sonifyed.com/bmc-bioinformatics-2021
 - Repository: https://github.com/sonifyed/Protein_Sound/
-- Issue tracker: https://github.com/your/awesome-project/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-- Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
-
 
 ## Licensing
 
