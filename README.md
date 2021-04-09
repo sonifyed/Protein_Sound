@@ -8,7 +8,10 @@ By rendering protein data as sound, it is hoped that human psychoacoustic intuit
 This README is written in markdown and is best viewed on GitHub at https://github.com/sonifyed/Protein_Sound/blob/main/README.md
 
 ## Installing / Getting started
-You will require [Perl](https://www.perl.org) to run scripts (v5.16.3 was used). 
+You will require [Perl](https://www.perl.org) to run scripts (v5.16.3 was used). You will also require the Statistics::Descriptive module (https://metacpan.org/pod/Statistics::Descriptive)
+```bash
+cpan install Statistics::Descriptive
+```
 
 You will need [Sonic Pi](https://sonic-pi.net) (v3.1.0 or later) to synthesize sound.
 
