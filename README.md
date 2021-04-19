@@ -128,6 +128,7 @@ The output code must be pasted into Sonic Pi software to create sound. Click the
 ## Links
 - Examples Page: https://sonifyed.com/bmc-bioinformatics-2021
 - Repository: https://github.com/sonifyed/Protein_Sound/
+- Repository DOI [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4700420.svg)](https://doi.org/10.5281/zenodo.4700420)
 
 ## Licensing
 
