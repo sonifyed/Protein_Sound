@@ -124,6 +124,7 @@ The output code must be pasted into Sonic Pi software to create sound. Click the
 
 ![Screenshot of code created by running Algorithm-I.pl on protein test.fasta which has been copied and pasted into Sonic Pi GUI](https://github.com/sonifyed/Protein_Sound/blob/main/Sonic-Pi-Screenshot.png?raw=true)
 
+Use the 'Rec' button to record your sonification if desired.
 
 ## Links
 - Examples Page: https://sonifyed.com/bmc-bioinformatics-2021
