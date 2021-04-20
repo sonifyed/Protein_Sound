@@ -1,5 +1,5 @@
 # Using sound to understand protein sequence data
-Five algorithms for sonifying proteins and protein Multiple Sequence Alignments.
+Five algorithms for sonifying proteins and protein Multiple Sequence Alignments (MSAs).
 
 These scripts take FASTA protein sequences or FASTA protein Multiple Sequence Alignments and creates [Sonic Pi](https://sonic-pi.net) code. The resultant code can be pasted into Sonic Pi to create the sonifications. 
 
@@ -41,7 +41,7 @@ perl Algorithm-I.pl test.fasta # Use Algorithm I on protein sequence test.fasta.
 ```
 This will output Sonic pi code created from the protein sequence in 'test.fasta'. This code can be pasted into Sonic Pi's graphical user interface and run to listen to the sonification.
 
-It may be easier to print the output of the script to a file. You can do this using the > command. This way the code is saved for later. 
+It may be easier to print the output of the script to a file. You can do this using the ">" command. This way the code is saved for later. 
 
 ```bash
 perl Algorithm-I.pl test.fasta > Sonic-Pi-Code.txt # This prints the output to file 'Sonic-Pi-Code.txt'. 
@@ -120,7 +120,7 @@ MSA Example:
 perl Algorithm-IV.pl test-MSA.fasta > Sonic-Pi-code.txt # Prints to file sonic-pi code for sonifictaion 
 ```
 ### Sonic Pi
-The output code must be pasted into Sonic Pi software to create sound. Click the 'Run' button in the top left to play the sound.
+The output code must be pasted into Sonic Pi software to create sound. Click the 'Run' button in the top left to play the sound. See below a screenshot of what your screen would look like at this stage.
 
 ![Screenshot of code created by running Algorithm-I.pl on protein test.fasta which has been copied and pasted into Sonic Pi GUI](https://github.com/sonifyed/Protein_Sound/blob/main/Sonic-Pi-Screenshot.png?raw=true)
 
