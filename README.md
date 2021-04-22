@@ -136,15 +136,15 @@ Use the 'Rec' button to record your sonification if desired.
 The code in this project is licensed under [Creative Commons License: Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/legalcode).
 
 # Contents of Archive
-Algorithm-I.pl - Perl script for Algorithm I
+Algorithm-I.pl - Perl script for Algorithm I (protein hydrophobicity scale)
 
-Algorithm-II.pl - Perl script for Algorithm II
+Algorithm-II.pl - Perl script for Algorithm II (protein reduced alphabet)
 
-Algorithm-III.pl - Perl script for Algorithm III
+Algorithm-III.pl - Perl script for Algorithm III (protein reduced alphabet and hydrophbicity scale)
 
-Algorithm-IV.pl - Perl script for Algorithm IV
+Algorithm-IV.pl - Perl script for Algorithm IV (MSA entropy)
 
-Algorithm-V.pl - Perl script for Algorithm V
+Algorithm-V.pl - Perl script for Algorithm V (MSA hyrdophobicity)
 
 Examples-with-sound - Folder of Examples
 
