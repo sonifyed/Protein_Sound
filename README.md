@@ -1,3 +1,46 @@
+# Contents of Archive
+Algorithm-I.pl - Perl script for Algorithm I
+
+Algorithm-II.pl - Perl script for Algorithm II
+
+Algorithm-III.pl - Perl script for Algorithm III
+
+Algorithm-IV.pl - Perl script for Algorithm IV
+
+Algorithm-V.pl - Perl script for Algorithm V
+
+Examples-with-sound - Folder of Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algorithm-I-example-questionnaire.wav - Sound file example of Algorithm I used in Task 1 of the Questionnaire
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algorithm-V-example-questionnaire.wav - Sound file example of Algorithm V used in Task 2 of the Questionnaire
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSA_GAPDH - Folder containing Fasta files, sonic pi code, and sound files of GAPDH MSA Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSA_insulin - Folder containing Fasta files, sonic pi code, and sound files of insulin MSA Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCTR - Folder containing Fasta files, sonic pi code, and sound files of SCTR protein Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;histone-h4 - Folder containing Fasta files, sonic pi code, and sound files of histone-h4 protein Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;insulin - Folder containing Fasta files, sonic pi code, and sound files of insulin protein Examples
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transmembrane - Folder containing Fasta files, sonic pi code, and sound files of transmembrane protein Examples
+
+Questionnaire.pdf - pdf copy of the questionnaire used for qualitative reasearch process
+
+README.md - This file explaining how to use the code etc.
+
+Representative_Statements.pdf - quotes from our focus group about the different algorithms
+
+Sonic-Pi-Screenshot.png - a screenshot of sonic pi software used in this README
+
+asciicast.svg - an animation of the commandline implementation of one of the perl scripts
+
+test-MSA.fasta - a Multiple Sequence Alignment in FASTA format that can be used to test Algorithms IV and V
+
+test.fasta - a protein sequence in FASTA format that can be used to test Algorithms I, II, and III
+
 # Using sound to understand protein sequence data
 Five algorithms for sonifying proteins and protein Multiple Sequence Alignments (MSAs).
 
