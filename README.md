@@ -129,7 +129,7 @@ Use the 'Rec' button to record your sonification if desired.
 ## Links
 - Examples Page: https://sonifyed.com/bmc-bioinformatics-2021
 - Repository: https://github.com/sonifyed/Protein_Sound/
-- Repository DOI [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4700420.svg)](https://doi.org/10.5281/zenodo.4700420)
+- Repository DOI: https://doi.org/10.5281/zenodo.4683746
 
 ## Licensing
 
